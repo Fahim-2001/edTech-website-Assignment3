@@ -20,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bitter&display=swap"
       rel="stylesheet"
     />
     <!---------------------------------------------- Fontawesome ------------------------------------------------------->
@@ -28,13 +28,15 @@
       src="https://kit.fontawesome.com/830e659891.js"
       crossorigin="anonymous"
     ></script>
+    <!---------------------------------------------- Vanilla CSS ------------------------------------------------------->
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <!------------------------------------------------ Header ---------------------------------------------------------->
     <header>
       <!------------------------------------------------ Navbar -------------------------------------------------------->
       <section>
-        <nav class="navbar navbar-expand-lg bg-light container p-3">
+        <nav class="navbar navbar-expand-lg bg-light container p-3 mb-4">
           <div class="container-fluid">
             <a class="navbar-brand fw-bold fs-3" href="#">My Tech</a>
             <button
@@ -59,28 +61,31 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="#courses"
                     >Courses</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Deals</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="#success"
                     >Success</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="#about"
                     >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#registration"
+                    >Registration</a
                   >
                 </li>
               </ul>
               <button class="btn btn-outline-dark" type="submit">
-                Registration
+                Sign Up
               </button>
             </div>
           </div>
@@ -180,7 +185,7 @@
     <!------------------------------------------------- Main ----------------------------------------------------------->
     <main>
       <!------------------------------------------- Our Courses ------------------------------------------------------>
-      <section class="my-5">
+      <section class="my-5" id="courses">
         <div class="container text-center my-5">
           <h1 class="fw-bold">Our Courses</h1>
           <p>
@@ -192,10 +197,10 @@
         <div class="container">
           <div class="row mb-4">
             <div
-              class="col col-lg-6 d-flex gap-3 align-items-lg-center col-md-12 justify-content-md-around col-sm-12 col-12 flex-lg-row flex-md-row flex-sm-column flex-column"
+              class="col col-lg-6 d-flex p-4 align-items-lg-center col-md-12 justify-content-md-around col-sm-12 col-12 flex-lg-row flex-md-row flex-sm-column flex-column"
             >
               <img src="images/course/course-1.png" alt="" />
-              <div>
+              <div class="ms-3">
                 <h3 class="fw-bolder">Fundamental of UI/UX Designs</h3>
                 <p>
                   More than 120 videos, 22 live classes, 12 projects and 3 mock
@@ -205,72 +210,72 @@
               </div>
             </div>
             <div
-              class="col col-lg-6 d-flex gap-3 align-items-lg-center col-md-12 justify-content-md-around col-sm-12 col-12 flex-lg-row flex-md-row flex-sm-column flex-column"
+              class="col col-lg-6 d-flex p-4 align-items-lg-center col-md-12 justify-content-md-around col-sm-12 col-12 flex-lg-row flex-md-row flex-sm-column flex-column"
             >
               <img src="images/course/course-2.png" alt="" />
-              <div>
+              <div class="ms-3">
                 <h3 class="fw-bolder">Javascript Basic to advanced</h3>
                 <p>
                   More than 120 videos, 22 live classes, 12 projects and 3 mock
                   interviews are packaged in this course
                 </p>
-                <p class="text-primary fw-bolder">Price: $23</p>
+                <p class="text-primary fw-bolder">Price: $33</p>
               </div>
             </div>
           </div>
           <div class="row mb-4">
             <div
-              class="col col-lg-6 d-flex gap-3 align-items-lg-center col-md-12 justify-content-md-around col-sm-12 col-12 flex-lg-row flex-md-row flex-sm-column flex-column"
+              class="col col-lg-6 d-flex p-4 align-items-lg-center col-md-12 justify-content-md-around col-sm-12 col-12 flex-lg-row flex-md-row flex-sm-column flex-column"
             >
               <img src="images/course/course-3.png" alt="" />
-              <div>
+              <div class="ms-3">
                 <h3 class="fw-bolder">Fullstack Web Development</h3>
                 <p>
                   More than 120 videos, 22 live classes, 12 projects and 3 mock
                   interviews are packaged in this course
                 </p>
-                <p class="text-primary fw-bolder">Price: $23</p>
+                <p class="text-primary fw-bolder">Price: $43</p>
               </div>
             </div>
             <div
-              class="col col-lg-6 d-flex gap-3 align-items-lg-center col-md-12 justify-content-md-around col-sm-12 col-12 flex-lg-row flex-md-row flex-sm-column flex-column"
+              class="col col-lg-6 d-flex p-4 align-items-lg-center col-md-12 justify-content-md-around col-sm-12 col-12 flex-lg-row flex-md-row flex-sm-column flex-column"
             >
               <img src="images/course/course-4.png" alt="" />
-              <div>
+              <div class="ms-3">
                 <h3 class="fw-bolder">Digital Marketing</h3>
                 <p>
                   More than 120 videos, 22 live classes, 12 projects and 3 mock
                   interviews are packaged in this course
                 </p>
-                <p class="text-primary fw-bolder">Price: $23</p>
+                <p class="text-primary fw-bolder">Price: $13</p>
               </div>
             </div>
           </div>
           <div class="row mb-4 d-lg-flex d-md-none">
             <div
-              class="col col-lg-6 d-flex gap-3 align-items-lg-center col-md-12 justify-content-md-around col-sm-12 col-12 flex-lg-row flex-md-row flex-sm-column flex-column"
+              class="col col-lg-6 d-flex p-4 align-items-lg-center col-md-12 justify-content-md-around col-sm-12 col-12 flex-lg-row flex-md-row flex-sm-column flex-column"
             >
               <img src="images/course/course-5.png" alt="" />
-              <div>
+              <div class="ms-3">
                 <h3 class="fw-bolder">Photography Basic Rules</h3>
                 <p>
                   More than 120 videos, 22 live classes, 12 projects and 3 mock
                   interviews are packaged in this course
                 </p>
-                <p class="text-primary fw-bolder">Price: $23</p>
+                <p class="text-primary fw-bolder">Price: $25</p>
               </div>
             </div>
             <div
-              class="col col-lg-6 d-flex gap-3 align-items-lg-center col-md-12 justify-content-md-around col-sm-12 col-12 flex-lg-row flex-md-row flex-sm-column flex-column"
+              class="col col-lg-6 d-flex p-4 align-items-lg-center col-md-12 justify-content-md-around col-sm-12 col-12 flex-lg-row flex-md-row flex-sm-column flex-column"
             >
               <img src="images/course/course-6.png" alt="" />
-              <div>
+              <div class="ms-3">
                 <h3 class="fw-bolder">Motion Graphics</h3>
                 <p>
                   More than 120 videos, 22 live classes, 12 projects and 3 mock
                   interviews are packaged in this course
                 </p>
-                <p class="text-primary fw-bolder">Price: $23</p>
+                <p class="text-primary fw-bolder">Price: $20</p>
               </div>
             </div>
           </div>
@@ -328,7 +333,7 @@
         </div>
       </section>
       <!------------------------------------------- Ready To Join ---------------------------------------------------->
-      <section>
+      <section id="registration">
         <div
           class="container d-flex flex-lg-row justify-content-lg-between align-items-lg-center flex-md-column justify-content-md-center align-items-md-center flex-sm-column justify-content-sm-center align-items-sm-center flex-column justify-content-center align-items-center bg-primary p-5 my-5 rounded"
         >
@@ -443,7 +448,7 @@
       </section>
       <!------------------------------------------- Successful Students ---------------------------------------------->
       <section>
-        <div class="container">
+        <div class="container" id="success">
           <div>
             <h1 class="fw-bold">Meet our Successful Students</h1>
             <p>
@@ -680,7 +685,7 @@
       </section>
     </main>
     <!------------------------------------------------ Footer ---------------------------------------------------------->
-    <footer class="bg-dark container-fluid py-5">
+    <footer class="bg-dark container-fluid py-5" id="about">
       <div class="text-center">
         <div>
           <h1 class="text-light fw-bold">My Tech</h1>
